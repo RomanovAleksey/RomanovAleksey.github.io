@@ -1,0 +1,176 @@
+html, body {
+	padding: 0;
+	margin: 0;
+
+}
+.head{
+		background: #373c3f;
+		width: 100%;
+}
+.nav{
+	height: 90px;
+	display: flex;
+	width: 60%;
+	padding-left: 50px;
+
+}
+.nav a{
+	justify-content: space-around;
+	flex-grow:1;
+	margin: auto;
+	color: #fff;
+	text-decoration: none;
+}
+
+.page{
+	display:flex;
+}
+.pink{
+	height: 350px;
+	background: #ff00d4;
+	width: 33.33%;
+	content:"";
+}
+.purple{
+	height: 350px;
+	background: purple;
+	width: 33.33%;
+content:"";
+}
+.yellow{
+	height: 350px;
+	background: yellow;
+	content:"";
+	width:33.33% ;
+}
+.button{display: none}
+@media only screen and (max-width: 980px) {
+	.page{
+		flex-flow: row wrap;
+	}
+	.pink{
+		width: 50%;
+	}
+	.purple{
+		width: 50%
+	}
+	.yellow{
+width: 100%;
+	}
+}
+@media only screen and (max-width: 640px){
+.purple{
+	order:1;
+	width: 100%;
+}
+.pink{
+	width: 100%;
+}
+.head{
+	height: 100%;
+}
+.nav{
+	height: 100%;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.hide{
+	display: none;
+}
+.nav a{
+	background:  rgb(0,255,138);
+	width: 100%;
+	border-bottom:0.2px solid white;
+	color:black;
+ 	text-align: left;
+ 	padding-left: 30px;
+ 	padding-top: 20px;
+ 	
+}
+.nav a:first-child{
+	display: inline-block;
+	border:none;
+	color: white;
+	line-height: 70px;
+	text-align: left;
+	background: #373c3f;
+	max-height: 70px;
+	margin: 0;
+	padding-left: 30px;
+	margin-top: -20px;
+}
+.button{
+	display: block;
+	position: absolute;
+	top:0;
+	right: 0;
+	height: 70px;
+	width: 80px;
+	background: #000;
+	outline:none;
+	border:none;
+}
+}
+
+
+@media only screen and (max-width: 320px){
+.nav{
+	height: 100%;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	position: absolute;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+}
+.head{
+	height: 100%;
+}
+.nav a{
+	
+	background:  rgb(0,255,138);
+	width: 100%;
+	border-bottom:0.2px solid white;
+color:black;
+ 	text-align: left;
+ 	padding-left: 20px;
+ 	padding-top: 15px;
+}
+.nav a:first-child{
+	display: inline-block;
+	margin:0;
+	padding-left: 20px;
+	margin-top: -15px;
+	background: #373c3f;
+	max-height: 30px;
+	border:none;
+	color: white;
+	line-height: 30px;
+	text-align: left;
+	font-size: 12px;
+ 
+}
+.button{
+	display: block;
+	position: absolute;
+	top:0;
+	right: 0;
+	height: 30px;
+	width: 40px;
+	background: #000;
+	outline:none;
+	border:none;
+}
+}

@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 800px;
+	margin: 0 auto;
+	background: url(../img/wallpapers_21200.jpg);
+	background-attachment: fixed;
+}
+li{
+	list-style: none;
+}
+.carusel{
+	width: 800px;
+	height: 400px;
+	margin: 20px auto;
+}
+.carusel img{
+	width: 800px;
+	height: 400px;
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel li {
+    float: left;
+}
+
+.select_center{
+	width: 300px;
+	margin: 40px auto;
+}
+.niceCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background: url(../img/checkbox.png);
+}
+.niceCheck input {
+display: none;
+}
+.checkbox_jq{
+	width: 300px;
+}
+.chekbox_text{
+
+	margin-left: 10px
+}
+

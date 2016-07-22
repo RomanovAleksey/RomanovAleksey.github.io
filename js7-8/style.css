@@ -1,0 +1,39 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.tabs{
+		width: 500px;
+		margin: 0 auto;
+		padding-top: 10px;
+		background: #ddd;
+
+	}
+	.tabs ul{
+		display: block;
+	}
+	.tab_head{
+		width: 250px;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+	.tab_head li{
+		display: inline-block;
+		padding: 20px;
+		background: #eee;
+	}
+	.active{
+		border: 1px solid #fff;
+		background: #ddd;
+	}
+	.tab{
+		display: none;
+		padding: 10px;
+	}
+	h2{
+		text-align: center;
+		padding: 10px;
+		font-size: 28px;
+
+	}
+

@@ -1,0 +1,473 @@
+.main{
+	width: 908px;
+	margin: 0 auto;
+}
+
+/* ------------------------- HEADER ----------------------- */
+
+
+.header{
+	margin-top: 17px;
+	margin-bottom: 10px;
+}
+.header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.header-phone-number{
+	float: left;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 18px;
+	color: #5e696d;
+	padding-left: 6px;
+	line-height: 29px;
+	letter-spacing: 0.49px;
+}
+.header-sign-in{
+	float: left;
+	width: 495px;
+	background: linear-gradient(to bottom, #1f6787, #0c3357);
+	border-radius: 5px;
+	margin-left: 15px;
+	margin-top: -2px;
+    height: 26px;
+}
+.header-sign-in input{
+	width: 112px;
+	height: 13px;
+}
+.header-sign-in a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 10.91px;
+	font-family: Arial;
+	color: #fff;
+	letter-spacing: 0.3px;
+}
+.header-sign-in form{
+	float: left;
+	padding:3px 8px 3px 1px;
+}
+.float{
+	float: left;
+	line-height: 18px;
+	margin-top: 3px;
+	letter-spacing: 0.6px;
+}
+a.float-password{
+	padding-left: 17px;
+    color: #bfbfbf;
+    text-decoration: underline;
+    font-size: 11px;
+	font-family: Tahoma;
+	letter-spacing: 0.7px;
+}
+
+/* ------------------------Banner-------------------- */
+
+.banner img{
+	margin-top: -3px;
+}
+/* ------------------- CENTER NAVIGATION ----------------- */
+
+.center-line{
+	height: 34px;
+	box-sizing: border-box;
+	background: linear-gradient( to bottom, #505860, #040405);
+	border-radius: 5px;
+	border:1px solid #171c30;
+	line-height: 24px;
+	margin-top: 3px;
+	letter-spacing: 0.4px;
+}
+.center-nav-main li{
+	display: inline-block;
+	margin-top: 4px;
+}
+.center-nav-main{
+	float: left;
+	padding-left: 126px;
+}
+.center-nav-main a{
+	text-decoration: none;
+	font-family: Lucida,Tahoma,sans-serif;
+	font-size: 13px;
+	color: #b1bcc0;
+	box-sizing: border-box;
+	height: 26px;
+	text-align: center;
+}
+.center-nav-main li:hover{
+	background: linear-gradient(to bottom, #1f6787, #0d365a);
+	border-radius: 20px;
+}
+.center-nav-menu{}
+.center-purchase{
+	float: right;
+}
+.center-purchase p{
+	float: left;
+}
+
+a.center_comp{
+	width: 123px;
+	display: block;	
+}
+.center_payment{
+	display: block;
+	width: 90px;
+}
+.center_delivery{
+	display: block;
+	width: 85px;
+} 
+.center_article{
+	display: block;
+	width: 95px;
+}
+.center_contact {
+	display: block;
+	width: 76px;
+}
+.center-purchase_product{
+	font-family: Arial, Tahoma;
+	font-size: 11px;
+	color: #868e92;
+}
+.center-purchase_product p{
+	padding:0 0 0 15px;
+	line-height: 30px;
+	font-weight: bolder;
+}
+.number{
+	font-size: 12px;
+	color: #0d5a8f;
+}
+.number-total{
+	padding-left: 10px;
+	padding-right: 6px;
+}
+
+
+
+/* ------------------find section--------------------- */
+
+.find{
+	margin-top: 11px;
+}
+.find img{
+	float: left;
+}
+.find-avto img{
+	padding-left: 3px;
+}
+.find-tires img{
+	margin-left: 3px;
+}
+.find-disc {
+	padding: -6px;
+}
+.find:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+/* --------------------------content >>>>---------------- */
+.main-content{
+	margin-top: 8px;
+}
+.main-content:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/* -----------------------left sidebar-------------------- */
+
+.nav-left{
+	float: left;
+	width: 183px;
+	margin-right: 10px;
+}
+.nav-left-price{
+	font-family: Lucida,Tahoma,sans-serif;
+	font-size: 13px;
+	color: #48647f;
+	border:1px solid #8b979c;
+	border-radius: 15px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 2px;
+
+}
+.nav-left-list{
+margin-top: 13px;
+
+}
+.nav-left-list li, .nav-left-list a{
+	list-style-type: none;
+	text-decoration: none;
+}
+a.nav-left-list-style{
+	border:1px solid #8b979c;
+	height: 26px;
+	width: 121px;
+	line-height: 29px;
+	color: #48647f;
+	border-radius: 15px;
+	display: block;
+	padding-left: 4px;
+	font-family: Lucida,Tahoma,sans-serif;
+	letter-spacing: 1.4px;
+	font-size: 13px;
+	margin-top: 10px;
+}
+li.product_name{
+	list-style-type: circle;
+	margin-left: 46px;
+}
+.product_name a{
+	
+	padding-top: 8px;
+	color: #48647f;
+	font-family: Lucida,Tahoma,sans-serif;
+	font-size: 13px;
+	display: block;
+	text-decoration: none;
+	letter-spacing: 0.4px;
+}
+.product_name a:hover{
+	font-family: Arial,Lucida;
+	font-size: 14px;
+	color: #0c3256;
+	text-decoration: underline;
+	font-weight: bold;
+}
+li a.mt-disc{
+	margin-top: 4px;
+	margin-bottom: -2px;
+}
+li a.mt-bolt{
+	margin-top: 4px;
+}
+
+/* ----------------center content-------------- */
+
+.content{
+	width: 525px;
+	margin: 0 auto;
+	float: left;
+	background: linear-gradient(to bottom, #e4e7e8, #93a7b0);
+	text-align: center;
+	border-radius: 3px;
+}
+.content h3{
+	font-size: 14px;
+	font-family: Lucida, Tahoma, sans-serif;
+	color: #36738f;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+.disc{
+	float: left;
+	width: 137px;
+	height: 180px;
+	margin: 10px 11px 3px 20px;
+	letter-spacing: 1.3px;
+}
+.disc-style{
+	position: relative;
+	background: #fff;
+	width: 137px;
+	height: 128px;
+	border:1px solid #a7b1b4;
+	border-radius: 6px;
+}
+.disc img{
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 28px;
+}
+.description{
+	font-size: 12px;
+	font-family: Lucida, Tahoma, sans-serif;
+	padding-left: 2px;
+
+}
+.price{
+	font-family: Arial,Tahoma,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #114165;
+    padding-top: 5px;
+    font-style: italic;
+    padding-left: 19px;
+}
+.content-disc4{
+	padding-top: 10px;
+}
+.content-disc5{
+	padding-top: 9px;
+}
+.content-disc6{
+	padding-top: 10px;
+}
+.content-disc7{
+	padding-top: 10px;
+}
+.content-disc8{
+	padding-top: 10px;
+}
+.content-disc9{
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+/* ----------------right sidebar---------------- */
+.nav-right{
+	float: right;
+	width: 182px;
+}
+.nav-right-price{
+	font-family: Lucida,Tahoma,sans-serif;
+	font-size: 13px;
+	color: #48647f;
+	border:1px solid #8b979c;
+	border-radius: 15px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 4px;
+}
+a.nav-left-right-style{
+	border:1px solid #8b979c;
+	color: #48647f;
+	border-radius: 15px;
+	display: block;
+	padding-left: 4px;
+	font-family: Lucida,Tahoma,sans-serif;
+	font-size: 13px;
+	margin-top: 13px;
+	margin-left: 15px;
+	width: 106px;
+	height:26px;
+	line-height: 26px;
+	text-decoration: none;
+}
+.nav-right input{
+	margin-left: -25px;
+}
+.padding-text{
+	padding-left: 10px;
+}
+.product_name_right{
+	padding-left: 46px;
+	padding-top: 7px;
+	color: #48647f;
+	font-family: Lucida,Tahoma,sans-serif;
+	font-size: 13px;
+	display: block;
+}
+.product_name_right input{
+	width: 10px;
+	height: 10px;
+}
+.button-select{
+	padding-top: 23px;	
+	padding-left: 55px;
+}
+.button-select input{
+	margin-left: -29px;
+    height: 24px;
+    width: 79px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #1c5e7e;
+    font-family: arial, tahoma;
+    font-size: 11px;
+    cursor: pointer;
+}
+a.disc-mt{
+	margin-top: 17px;
+}
+
+
+
+/* -------------- */
+
+
+.logo-line{
+	margin: 0 auto;
+	width: 677px;
+}
+.logo1{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 66px;
+	padding-left: 8px;
+}
+.logo-pl{
+	margin-left: -5px;
+}
+
+/* ---------------- */
+
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background: #213a4d;
+	margin-top: 20px;
+	color: #fff;
+}
+.footer ul{
+	width: 340px;
+	margin: 0 auto;
+	padding-top: 9px;
+}
+.footer li{
+	display: inline-block;
+	list-style-type: none;
+	border-left: 1px solid #fff;
+}
+.footer li:first-child{
+	margin-left: 11px;
+	border:none;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+	padding: 11px;
+	font-size: 12px;
+	font-family: Arial, Tahoma, sans-serif;
+	letter-spacing: 0.4px;
+	
+}
+.footer a:hover{
+	color: #52abcb;
+}
+.footer p{
+	text-align: center;
+	font-size: 10px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin-top: 15px;
+	color: #7a4641;
+}
+
+
+
+
+/* sprite */
+
+
+.list, .phone, .wheel, .busket, .sign{display: inline-block;background: url(../img/sprite.png) no-repeat;}
+
+.list {float: left;padding-right: 3px; background-position: -0px -0px; width: 22px; height: 21px; }
+.phone {vertical-align: middle; background-position: -0px -21px; width: 22px; height: 21px; }
+.wheel {float: left;padding-right: 3px; background-position: -0px -42px; width: 22px; height: 23px; }
+.busket {vertical-align: middle;padding-left: 6px; background-position: -0px -65px; width: 21px; height: 17px; }
+.sign {float:left;background-position: -0px -82px;width: 14px;height: 18px;margin-left: 8px;margin-top: 4px;}

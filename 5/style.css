@@ -1,0 +1,273 @@
+html{
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	padding: 0;
+	margin: 0 auto;
+}
+.clearfix{
+	display: table;
+	content: '';
+	clear: both;
+}
+header{
+	width: 100%;
+	height: 580px;
+	background: url(img/background.png) no-repeat left top;
+	padding: 0;
+	margin: 0 auto;
+	background-size: cover;
+	border-top: 5px solid rgb(100,173,103);
+}
+.ip{
+	position: absolute;
+	left: 15px;
+	top:10px;
+}
+.and{
+	position: absolute;
+	left: 14px;
+	top:10px;
+}
+.wi{
+	position: absolute;
+	left: 12px;
+	top:11px;
+}
+.selec{
+	width: 1190px;
+	height: 480px;
+	margin: 0 auto;
+	position: relative;
+	top:150px;
+	left: 100px;
+}
+.selec p{
+	color: #fff;
+}
+.iphone a{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: rgba(0,0,0, 0.5);
+	position: absolute;
+	left: 0px;
+}
+.android a{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: rgba(0,0,0, 0.5);
+	position: absolute;
+	left:60px;
+}
+.win a{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: rgba(0,0,0, 0.5);
+	position: absolute;
+	left: 120px;
+}
+.hand{
+	background: url(img/hand.png) no-repeat;
+	width: 440px;
+	height: 510px;
+	position: absolute;
+	top: -75px;
+	right: 130px;	
+}
+.content{
+	width: 1190px;
+	margin: 40px auto;
+	margin-bottom: -50px;
+} 
+.content-left{
+	width: 340px;
+	height: 200px;
+	float: left;
+	position: relative;
+	padding-top: 120px;
+	text-align: center;
+}
+.setting a{
+	width: 95px;
+	height: 95px;
+	border-radius: 95px;
+	background: #2ecc71;
+	position: absolute;
+	top:2px;
+	left: 110px;
+}
+
+.content-center{
+	width: 400px;
+	height: 200px;
+	float: left;
+	position: relative;
+	padding-top: 120px;
+	text-align: center;
+}
+.star a{
+	width: 95px;
+	height: 95px;
+	border-radius: 95px;
+	background: #2ecc71;
+	position: absolute;
+	top:2px;
+	left: 150px;
+}
+.content-right{
+	width: 340px;
+	height: 200px;
+	float: left;
+	position: relative;
+	padding-top: 120px;
+	text-align: center;
+}
+.brouser a{
+	width: 95px;
+	height: 95px;
+	border-radius: 95px;
+	background: #2ecc71;
+	position: absolute;
+	top:2px;
+	left: 110px;
+}
+.setti, .brouse{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+}
+.sta{
+	position: absolute;
+	top: 22px;
+	right: 23px;
+}
+.centr-line{
+	background: #e3e3e3;
+	width: 100%;
+}
+.centr-content-video{
+ 	margin:0 auto;
+  	width: 1190px;
+	height: 430px;
+	background: #e3e3e3;
+	vertical-align: middle;
+}
+.cv-left{
+	width: 400px;
+	float: left;
+	padding: 60px 0 0 10px;
+}
+.cv-left p{
+	color: #848484;
+}
+.video{
+	float: right;
+	padding: 60px 40px;
+}
+/*.face-line a:hover{
+	background: rgba(100,173,103, 0.4);
+	z-index: 50;
+	width: 50px;
+	height: 50px;
+}*/
+footer{
+	margin:0 auto;
+  	width: 1190px;
+  	text-align: center;
+}
+.soc-line {
+	display: inline;
+	position: relative;
+}
+.twitter a{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background: #d4d4d4;
+	position: absolute;
+	left: -100px;
+	top: 20px;
+}
+.facebook a{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background: #d4d4d4;
+	position: absolute;
+	left: -60px;
+	top: 20px;
+}
+.p a{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background: #d4d4d4;
+	position: absolute;
+	left: -20px;
+	top: 20px;
+}
+.g a{width: 30px; height: 30px; border-radius: 30px; background: #d4d4d4; position: absolute; left: 20px; top: 20px; }
+ .linkedin a{width: 30px; height: 30px; border-radius: 30px; background: #d4d4d4; position: absolute; left: 60px; top: 20px; }
+.youtube a{width: 30px; height: 30px; border-radius: 30px; background: #d4d4d4; position: absolute; left: 100px; top: 20px; } .sta , .brouse, .setti, .wi, .and,
+.ip, .pin, .gogle, .yt, .twit, 
+.lin, .fb
+{ display: inline-block; background: url('img/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+.wi{ background-position: -0px -0px; width: 26px; height: 25px; }
+.and{ background-position: -0px -25px; width: 23px; height: 25px; }
+.ip { background-position: -0px -50px; width: 21px; height: 26px; }
+.sta { background-position: -0px -0px; width: 48px; height: 48px; }
+.brouse { background-position: -0px -48px; width: 47px; height: 47px; }
+.setti { background-position: -0px -95px; width: 43px; height: 43px; }
+.wi { background-position: -0px -138px; width: 26px; height: 25px; }
+.and { background-position: -0px -163px; width: 23px; height: 25px; }
+.ip { background-position: -26px -138px; width: 21px; height: 26px; }
+.pin { background-position: -23px -164px; width: 20px; height: 20px; }
+.gogle { background-position: -23px -184px; width: 19px; height: 18px; }
+.yt { background-position: -0px -188px; width: 18px; height: 22px; }
+.twit { background-position: -18px -202px; width: 17px; height: 13px; }
+.lin { background-position: -0px -210px; width: 15px; height: 15px; }
+.fb { background-position: -35px -202px; width: 9px; height: 17px; }
+.face-1, .face-10, .face-2, .face-3, .face-4, 
+.face-5, .face-6, .face-7, .face-8, .face-9
+{ display: inline-block; background: url('img/sprite-face.png') no-repeat;} 
+.face-1 { background-position: -0px -0px; width: 50px; height: 50px; }
+.face-10 { background-position: -50px -0px; width: 50px; height: 50px; }
+.face-2 { background-position: -100px -0px; width: 50px; height: 50px; }
+.face-3 { background-position: -0px -50px; width: 50px; height: 50px; }
+.face-4 { background-position: -50px -50px; width: 50px; height: 50px; }
+.face-5 { background-position: -100px -50px; width: 50px; height: 50px; }
+.face-6 { background-position: -0px -100px; width: 50px; height: 50px; }
+.face-7 { background-position: -50px -100px; width: 50px; height: 50px; }
+.face-8 { background-position: -100px -100px; width: 50px; height: 50px; }
+.face-9 { background-position: -0px -150px; width: 50px; height: 50px; }
+.pin, .gogle, .yt, 
+.lin{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.twit{
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+.fb{
+	position: absolute;
+	top: 7px;
+	right: 10px;
+}
+.twitter a:hover, .facebook a:hover, .p a:hover, .g a:hover, .linkedin a:hover, .youtube a:hover
+{background: #62d995;}
+.iphone a:hover, .android a:hover, .win a:hover{background: #2ecc71; } 
+.footer p{color: #848484; }
+.footer-nav{margin-top: 110px; width: 100%; height: 130px; background: #e3e3e3; text-align: center; vertical-align: middle; }
+.footer-nav a{text-decoration: none; color: #848484; padding: 30px 30px; } 
+.footer-nav li{display: inline; }
+.footer-nav ul{padding-top: 50px; }
+
+

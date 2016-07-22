@@ -1,0 +1,146 @@
+html{
+	margin: 0 auto;
+	padding: 0;
+	font-family: sans-serif;
+}
+body{
+	padding: 0;
+	margin: 0 auto;
+	width: 770px;
+}
+.clearfix{
+	display: table;
+	content: '';
+	clear: both;
+}
+header{
+	background: url(img/head.png) no-repeat left top;
+	height: 250px;
+	position: relative;
+}
+.nav-top{
+		text-align: right;
+		padding-top: 19px;
+		font-size: 14px;
+}
+.nav-top li{
+	display: inline;
+	background:#c2c2c3;
+	padding: 5px;
+	border-radius: 5px 5px 0 0;
+}
+.nav-top a{
+	color: #000;
+	text-decoration: none;
+}
+.nav-top li:hover{
+	background: #ff9d0a;
+}
+.company{
+	background: #fff;
+	width: 200px;
+	margin-top:80px;
+	font-size: 18px;
+	border: 1px solid #fff;
+	border-radius:0 10px 10px 0;
+	padding-left: 15px;
+	box-shadow: 7px 7px 1px -5px #000000;
+}
+.company-top{
+	font-family: 'Courgette', cursive;
+}
+.company-top-color{
+	color: #ffdec1;
+}
+.company-bot{
+	font-size: 12px;
+	color: #666666;
+}
+.nav-r{
+	float: right;
+	margin-top: -100px;
+	font-size: 12px;
+}
+.nav-r li{
+	display: inline;
+	padding-right: 10px;
+
+}
+.nav-r ul{
+	background: #fff;
+	list-style-type: none;
+	border-radius: 5px 0 0 5px;
+	padding:2px;
+	padding-left: 5px;
+	 box-shadow: 1px 7px 1px -5px #000000;
+}
+.nav-r a{
+	text-decoration: none;
+	color: #ffa844;
+}
+.content-left{
+	float: left;
+	width: 230px;
+	margin-left: 10px;
+}
+.content-centr{
+	float: left;
+	width: 230px;
+	background: #f0f0f0;
+	margin-left: 8px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+.content-right{
+	float: left;
+	width: 260px;
+	margin-left: 8px;
+	padding-left: 3px;
+}
+.content-left h3{
+	color:#d35b5b;
+	margin-bottom: -10px;
+}
+.content-left a{
+	color:#d35b5b;
+	font-size: 12px;
+}
+.content-centr li{
+	color:#ff9900;
+	text-decoration: underline;
+	list-style-type: none;
+	margin-left: -40px;
+	padding: 1px;
+}
+.color-content-right{
+	font-size: 14px;
+	text-decoration: underline;
+	color: #0033cc;
+}
+.footer{
+	text-align: center;
+}
+.nav-footer{
+	background: #000;
+	width: 770px;
+	height: 20px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.nav-footer li{
+	display: inline;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+.nav-footer a{
+	color: #fff;
+	text-decoration: none;
+}
+.fot-img{
+	background: url(img/footer.png) no-repeat top;
+	height: 50px;
+	width: 770px;
+}
+hr{
+	margin-left: -10px;
+}

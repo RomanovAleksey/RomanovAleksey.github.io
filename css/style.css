@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-image: url("../img/nastol.com.ua-181649.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    padding: 0px;
+    margin: 0px;
+}
+.tab_head {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    width: 184px;
+    padding: 0px;
+}
+.tab_head li {
+    height: 150px;
+    font-size: 28px;
+    line-height: 150px;
+    text-align: center;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+}
+.active-tabs {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) !important;
+}
+.block {
+    float: left;
+    width: 42%;
+    height: 500px;
+    position: relative;
+    margin: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.block img {
+    width: 100%;
+    transition: 0.6s;
+}
+.work:hover .work__text, .study:hover .study__text, .study:hover .study__text--js {
+    bottom: 0px;
+}
+.work__text, .study__text, .study__text--js {
+    position: absolute;
+    bottom: -150px;
+    height: 100px;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    transition: 0.5s;
+    border-top: 1px solid rgb(221, 221, 221);
+    background: rgb(255, 255, 255);
+}
+.work__text {
+    line-height: 24px;
+    font-size: 18px;
+}
+.study {
+    height: 352px;
+}
+.study__text, .study__text--js {
+    line-height: 45px;
+    font-size: 22px;
+}
+.study--js {
+    height: 205px;
+}
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+section{
+	display: none;
+}
+.footer {
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+}

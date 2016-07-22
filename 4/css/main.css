@@ -1,0 +1,166 @@
+html{
+	
+	background: url(../img/bg.jpg) center no-repeat;
+	background-size: cover;
+	background-position: 0 35px;
+}
+input{
+	border:none;
+}
+header{
+	height: 35px;
+	background: #074d8a;
+}
+header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+article{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.float{
+	float: right;
+}
+
+.header-navi-left{
+	float: left;
+	border-right: 1px solid #56a2dc;
+	box-sizing: border-box;
+}
+.header-navi-left li{
+	float: left;
+}
+.header-navi-left a{
+	color: #60b5ed;
+	line-height: 35px;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding:0 20px;
+}
+.header-navi-left a:hover {
+	background: #4eabda;
+	line-height: 35px;
+	height: 35px;
+	color: #fff;
+	display: block;
+	padding: 0 20px;
+}
+.header-navi-right{
+	float: right;
+	
+}
+.header-navi-right a{
+	color: #60b5ed;
+	line-height: 35px;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding:0 20px;
+}
+.header-navi-right a:hover {
+	background: #4eabda;
+	line-height: 35px;
+	height: 35px;
+	color: #fff;
+	display: block;
+	padding: 0 20px;
+}
+.header-navi-right img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.header-navi-right li{
+	float: left;
+}
+.header_ola{
+	background: #4eabda;
+}
+.header_ola a{
+	color: #fff;
+}
+.header_ola span{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+.sigin{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.sigin-wrapper{
+	width: 560px;
+	height: 600px;
+	background: rgba(0,0,0,.6);
+margin: 225px auto;
+	
+}
+.sigin-wrapper h2{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 24px;
+}
+.sigin-wrapper p{
+	color: #9b9996;
+}
+.sigin-log-in{
+	width: 275px;
+	margin: 0 auto;
+}
+.sigin-log-in input{
+	margin-bottom: 15px;
+	width: 253px;
+	height: 35px;
+	padding-left: 20px;
+	color: #cccccc;
+	background: #000;
+	border-bottom: 1px solid #494947;
+}
+.sigin-log-in input:hover{
+	background: #1b5288;
+}.sigin-log-in input:focus{
+	background: #1b5288;
+}
+.sigin-facebook{
+	width: 276px;
+	height: 35px;
+	background: url(../img/fb.png);
+	border:none;
+	margin:35px 0 35px 0;
+	cursor: pointer;
+}
+#check{
+	width: 10px;
+	height: 10px;
+}
+.sigin-log-in p{
+	height: 20px;
+	margin-bottom: 19px;
+}
+.sigin-create{
+	width: 150px;
+	height: 35px;
+	display: block;
+	margin: 20px auto;
+	background: #3c8fce;
+	color: #fff;
+	border:none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.center-text{
+	text-align: center;
+	font-size: 11px;
+	font-family: Tahoma, Arial, sans-serif;
+}

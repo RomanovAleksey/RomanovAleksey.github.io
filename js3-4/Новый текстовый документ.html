@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<div id="display"></div>
+        <input type="button" class="button btn btn-large btn-primary col-md-3" id="play" value="Start" />
+        <input type="button" class="button btn btn-large btn-primary col-md-3" id="pause" value="Pause" />
+        <input type="button" class="button btn btn-large btn-primary col-md-3" id="clear" value="Reset" />
+	</div>
+
+	<script type="text/javascript">
+		
+function timer (id) {
+                this.display = document.getElementById(id);
+                this.main;
+                this.base = 60;
+                this.time = 0;
+                this.i = 0;
+                this.data = '';
+                this.show = true;
+                this.setValue = function (data) {
+                    if (this.display) {
+                        display.innerHTML = data || '00:00:00.00';
+                    }
+                };
+                this.clear = function () {
+                    clearTimeout(this.main);
+                    this.time = 0;
+                    this.data = '';
+                    this.show = true;
+                    this.i = 0;
+                    this.setValue();
+                };
+                this.fixed = function (data) {
+                    return (data < 10)?'0'+data:data;
+                };
+                this.start = function () {
+                    this.ms = this.time % 100;
+                    this.ms = this.fixed(this.ms);
+                    this.sec = Math.floor(this.time/100) % this.base;
+                    this.sec = this.fixed(this.sec);
+                    this.min  = Math.floor(this.time/(100 * this.base)) % this.base;
+                    this.min = this.fixed(this.min);
+                    this.h = Math.floor(this.time/(100 * Math.pow(this.base,2))) % 24;
+                    this.h = this.fixed(this.h);
+                    this.data = this.h + ':' + this.min + ':'+this.sec+'.'+this.ms;
+
+                    if (this.show == true) {
+                        this.setValue(this.data);
+
+                        var _this = this;
+                        this.main = setTimeout(function() {
+                            _this.start()
+                        }, 10);
+                    }
+                    if (this.ms == 99 && this.sec == 59 && this.min == 59 && this.h == 23) {this.clear();}
+                    this.time++;
+                };
+                this.play = function () {
+                    if (this.i == 0) {
+                        this.start();
+                        this.i = 1;
+                    } else {
+                        if (this.i > 0) {
+                            this.show = true;
+                            this.start();
+                        }
+                    }
+                };
+                this.pause = function () {
+                	if (this.show == true) {
+                            this.show = false;
+                            clearTimeout(this.play);
+                            
+                        } 
+                };
+            }
+             
+            window.onload = function () {
+                var tm = new timer('display');
+                document.getElementById('play').onclick = function () {
+                    tm.play();
+                };document.getElementById('pause').onclick = function () {
+                    tm.pause();
+                };
+                document.getElementById('clear').onclick = function () {
+                    tm.clear();
+                };
+            }
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="js/jquery-2.2.0.min.js"></script>
+  <script>
+      $(document).ready(function(){
+
+               $(".button").click(function () {
+                           if ($(".hide").is(":hidden")) {
+                                   $(".hide").show("fast");
+                           } else {
+                                   $(".hide").hide("fast");
+                           }
+     return false;
+    });
+    });
+
+
+	  </script>
+</head>
+
+<body>
+	<header class="head">
+		<nav class="nav">
+			<a href="">PSD WEBSITES</a>
+			<a href="" class="hide">UI KITS</a>
+			<a href="" class="hide">PREMIUM</a>
+			<a href="" class="hide">PSD FILES</a>
+			<a href="" class="hide">ABOUT</a>
+			<a href="" class="hide">BLOG</a>
+		</nav>
+		<button class="button"> </button>
+	</header>
+	<div class="page">
+		<div class="pink"></div>
+		<div class="purple"></div>
+		<div class="yellow"></div>
+	</div>
+</body>
+</html>
